@@ -1,0 +1,38 @@
+* {
+  background-color: rgb(38, 37, 41);
+  color: white;
+}
+
+.App {
+  text-align: center;
+}
+
+button {
+  font-size: calc(10px + 2vmin);
+}
+
+.projectImg {
+  height: 500px;
+  width: 500px;
+}
+
+.projectContainer {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100vw;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.socialThumb{
+  height:30px;
+  width:30px;
+}
+
+footer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  justify-self: flex-end; 
+  width: 100vw;
+}
